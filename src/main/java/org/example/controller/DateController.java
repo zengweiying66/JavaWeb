@@ -9,4 +9,9 @@ public class DateController {
     public String showDate() {
         return "date";
     }
+
+    @GetMapping("/firstJsp")
+    public String firstJsp() {
+        return "firstJsp";
+    }
 }
