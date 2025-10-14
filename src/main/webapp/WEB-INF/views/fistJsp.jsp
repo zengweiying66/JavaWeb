@@ -12,7 +12,7 @@
     <title>我的第一个JSP页面</title>
 </head>
 <body>
-     <h1>我的第一个JSP页面</h1>
+     <h1>我的第一个JSP页面1</h1>
      <h2>include 动作实例</h2>
      <jsp:include page="date.jsp" flush="true"/>
 </body>
