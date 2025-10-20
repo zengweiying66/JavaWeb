@@ -43,5 +43,8 @@
     <label for="confirmPassword">确认密码:</label>
     <input type="password" id="confirmPassword" name="confirmPassword" required>
     <br><br>
+
+    <input type="submit" value="注册">
+</form>
 </body>
 </html>
