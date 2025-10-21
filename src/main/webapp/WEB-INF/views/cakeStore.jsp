@@ -23,21 +23,21 @@
    <div class="products">
        <!--商品卡片-->
        <div class="product-card">
-           <img src="images/cake1.png" alt="蛋糕1" width="300" height="300">
+           <img src="/images/cake1.png" alt="蛋糕1" width="300" height="300">
            <h3>玫瑰蛋糕</h3>
            <p>价格:￥88</p>
            <button>加入购物车</button>
        </div>
 
        <div class="product-card">
-           <img src="images/cake2.png" alt="蛋糕2" width="300" height="300">
+           <img src="/images/cake2.png" alt="蛋糕2" width="300" height="300">
            <h3>梵高的向日葵</h3>
            <p>价格:￥120</p>
            <button>加入购物车</button>
        </div>
 
        <div class="product-card">
-           <img src="images/cake3.png" alt="蛋糕3" width="300" height="300">
+           <img src="/images/cake3.png" alt="蛋糕3" width="300" height="300">
            <h3>枯叶蝶蛋糕</h3>
            <p>价格:￥100</p>
            <button>加入购物车</button>
