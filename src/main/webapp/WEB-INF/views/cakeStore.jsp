@@ -31,21 +31,25 @@
 
        <div class="product-card">
            <img src="images/cake2.jpg" alt="蛋糕2" width="300" height="300">
-           <h3>巧克力蛋糕</h3>
-           <p>价格:￥128</p>
+           <h3>梵高的向日葵</h3>
+           <p>价格:￥120</p>
+           <button>加入购物车</button>
+       </div>
+
+       <div class="product-card">
+           <img src="images/cake3.jpg" alt="蛋糕3" width="300" height="300">
+           <h3>枯叶蝶蛋糕</h3>
+           <p>价格:￥100</p>
            <button>加入购物车</button>
        </div>
    </div>
 </section>
+<!--网站底部-->
 
 <footer>
     <p>版权所有 &copy; 2025 蛋糕商城</p>
 </footer>
 </body>
 </html>
-           <img src="images/cake2.jpg" alt="蛋糕2">
-           <h3>蛋糕2</h3>
-           <p>描述：这是蛋糕2的描述</p>
-           <p>
 </body>
 </html>
