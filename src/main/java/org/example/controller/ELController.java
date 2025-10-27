@@ -13,4 +13,9 @@ public class ELController {
     public String testPageContext() {
         return "pageContextTest";
     }
+
+    @GetMapping("/pageContextTest2")
+    public String testPageContext2() {
+        return "pageContextTest2";
+    }
 }
