@@ -8,4 +8,9 @@ public class ELController {
     public String showEL() {
         return "testEL";
     }
+
+    @GetMapping("/pageContextTest")
+    public String testPageContext() {
+        return "pageContextTest";
+    }
 }
