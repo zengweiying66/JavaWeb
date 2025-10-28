@@ -7,6 +7,7 @@
 --%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
 <html>
 <body>
@@ -21,5 +22,10 @@
 <c:if test="${userRole == 'admin'}">
     <p style="color:green;">管理员权限已激活</p>
 </c:if>
+
+<h2>当前日期格式化：</h2>
+<fmt:formatDate value="<%= new java.util.Date() %>" pattern="yyyy-MM-dd HH:mm:ss" />
+
+
 </body>
 </html>
