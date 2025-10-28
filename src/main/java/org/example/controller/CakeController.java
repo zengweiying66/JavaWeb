@@ -8,4 +8,9 @@ public class CakeController {
     public String showDate() {
         return "cakeStore";
     }
+
+    @GetMapping("/cakeStore2")
+    public String showDate2() {
+        return "cakeStore2";
+    }
 }
