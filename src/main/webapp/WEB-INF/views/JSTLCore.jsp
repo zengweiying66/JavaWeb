@@ -27,10 +27,11 @@
 
 <!-- 根据年龄判断是否成年 -->
 <c:if test="${age >= 18}">
-    <p>已成年</p>
+    <p style="color: green;">已成年</p>
+
 </c:if>
 <c:if test="${age < 18}">
-    <p>未成年</p>
+    <p style="color: red;">未成年</p>
 </c:if>
 
 <!-- 显示兴趣爱好 -->
