@@ -9,4 +9,8 @@ public class JSTLCoreController {
     public String showDate() {
         return "JSTLCore";
     }
+    @GetMapping("/JSTLCore2")
+    public String showDate2() {
+        return "JSTLCore2";
+    }
 }

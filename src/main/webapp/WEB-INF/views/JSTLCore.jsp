@@ -16,23 +16,22 @@
 
 <!-- 设置学生的姓名、年龄和兴趣爱好 -->
 <c:set var="name" value="张三" />
-<c:set var="age" value="17" />
 <c:set var="hobbies" value="${['阅读', '游泳', '编程']}" />
 
 <!-- 显示姓名 -->
 <p>姓名：${name}</p>
 
+<!-- 年龄输入 -->
+<p>
+    <label>请输入年龄：</label>
+    <input type="number" id="ageInput" value="17" min="1" max="120" onchange="updateAge()" />
+</p>
+
 <!-- 显示年龄 -->
-<p>年龄：${age}</p>
+<p>年龄：<span id="ageDisplay">17</span></p>
 
 <!-- 根据年龄判断是否成年 -->
-<c:if test="${age >= 18}">
-    <p style="color: green;">已成年</p>
-
-</c:if>
-<c:if test="${age < 18}">
-    <p style="color: red;">未成年</p>
-</c:if>
+<p id="ageStatus" style="color: red;">未成年</p>
 
 <!-- 显示兴趣爱好 -->
 <h3>兴趣爱好：</h3>
@@ -41,5 +40,26 @@
         <li>${hobby}</li>
     </c:forEach>
 </ul>
+
+<script>
+    // 页面加载时初始化
+    window.onload = function() {
+        updateAge();
+    };
+
+    function updateAge() {
+        var age = document.getElementById('ageInput').value;
+        document.getElementById('ageDisplay').textContent = age;
+
+        var statusElement = document.getElementById('ageStatus');
+        if (age >= 18) {
+            statusElement.textContent = '已成年';
+            statusElement.style.color = 'green';
+        } else {
+            statusElement.textContent = '未成年';
+            statusElement.style.color = 'red';
+        }
+    }
+</script>
 </body>
 </html>
